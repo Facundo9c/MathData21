@@ -5,4 +5,4 @@ Facundo Canossa Website
 
 ## Notes
 
-<img src="https://images.app.goo.gl/hVEqnXGrh9y5tp7t6">
+<img src="https://images.app.goo.gl/PAwmnfqgWM5sGFBH9">
