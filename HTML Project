@@ -1,1 +1,88 @@
-#Project
+#Project Facundo Canossa Rain Project
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rain Detector Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        p {
+            margin: 0 0 10px;
+        }
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Rain Detector from Photographs</h1>
+
+        <p><strong>Project Overview:</strong></p>
+        <p>
+            The Rain Detector project aims to develop a computer vision model that can automatically detect the presence of rain in photographs. 
+            This tool is built using Python and leverages advanced machine learning techniques to accurately classify images as either "rainy" or "not rainy."
+        </p>
+
+        <div class="image-container">
+            <img src="your_image_path_here.jpg" alt="Example of rain detection">
+            <p>Figure 1: Example of rain detection from an image</p>
+        </div>
+
+        <p><strong>Utility of a Rain Detector:</strong></p>
+        <p>
+            A rain detector can be highly useful in various applications, including:
+        </p>
+        <ul>
+            <li><strong>Autonomous Vehicles:</strong> Ensuring safety by adjusting driving behavior in response to rain.</li>
+            <li><strong>Surveillance Systems:</strong> Automatically adjusting camera settings or alerting operators when rain is detected.</li>
+            <li><strong>Weather Monitoring:</strong> Enhancing weather prediction models with real-time data from image feeds.</li>
+            <li><strong>Outdoor Photography:</strong> Automatically filtering or tagging photos taken in rainy conditions.</li>
+        </ul>
+
+        <p><strong>Technical Approach:</strong></p>
+        <p>
+            The model is trained on a dataset of images labeled as "rainy" or "not rainy." It uses convolutional neural networks (CNNs) to extract features from the images and make predictions. 
+            The project is implemented in Python, utilizing libraries such as TensorFlow or PyTorch for model training and OpenCV for image processing.
+        </p>
+
+        <p><strong>Future Work:</strong></p>
+        <p>
+            Future improvements could include enhancing the model's accuracy, expanding the dataset to include more diverse conditions, and integrating the model into real-time applications.
+        </p>
+
+        <p><strong>Conclusion:</strong></p>
+        <p>
+            The Rain Detector project is an exciting step towards developing smarter, weather-aware systems. By leveraging the power of computer vision, this tool has the potential to improve safety, efficiency, and convenience in various real-world applications.
+        </p>
+    </div>
+
+</body>
+</html>
